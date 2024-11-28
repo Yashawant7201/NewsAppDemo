@@ -10,10 +10,10 @@ function Feed() {
   const fetchNews = async () => { 
     try { 
    
-      const response = await axios.get(`https://newsapi.org/v2/everything?q=bitcoin&from=2024-10-30&to=2024-11-26&language=en&sortBy=relevancy&apiKey=86c6d192509444188c715752e81aad9d`
+      const response = await axios.get(`https://newsapi.org/v2/everything?q=bitcoin&from=2024-10-30&to=2024-11-26&language=en&sortBy=relevancy&apiKey=Your-API-KEY`
       // { params: 
       //   {
-      //     apiKey: '86c6d192509444188c715752e81aad9d' ,
+      //     apiKey: 'Your-API-KEY' ,
       //      q: 'bitcoin',
       //       sources: 'bbc-news,the-verge',
       //       domains: 'bbc.co.uk, techcrunch.com',
