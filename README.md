@@ -1,4 +1,4 @@
-
+  #project 1
 <DOCKTYPE html>
 <html>
   <head>
@@ -10,7 +10,7 @@
     </style>
   </head>
   <body>
-    #project 1
+  
 This is a demo News API App.
 
 <div class="container">
