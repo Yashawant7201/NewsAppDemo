@@ -13,7 +13,7 @@
 This is a demo News API App.
 
 <div class="container">
-<h1>Please visit NEWS API to know more => <a href="https://newsapi.org/">News API</a></h1>
+<h1>Please visit NEWS API to know more Click News API link=> <a href="https://newsapi.org/">News API</a></h1>
 </div>
 
 
