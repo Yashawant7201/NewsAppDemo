@@ -9,11 +9,11 @@ function Feed() {
  useEffect(() => { 
   const fetchNews = async () => { 
     try { 
-   
+     //Please visit NEWS API to know more about api call used in this project and to get a new API_KEY for your project.
       const response = await axios.get(`https://newsapi.org/v2/everything?q=bitcoin&from=2024-11-05&to=2024-11-27&language=en&sortBy=relevancy&apiKey=Your-API-KEY`
       // { params: 
       //   {
-      //     apiKey: 'Your-API-KEY' ,
+      //     apiKey: 'Your-API-KEY' , //Dummy key. Please use your own api key. visit https://newsapi.org/
       //      q: 'bitcoin',
       //       sources: 'bbc-news,the-verge',
       //       domains: 'bbc.co.uk, techcrunch.com',
