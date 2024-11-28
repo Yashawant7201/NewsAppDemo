@@ -5,6 +5,7 @@
     <style>
       .container{
         display: flex;
+        flex-direction: row;
         }
     </style>
   </head>
